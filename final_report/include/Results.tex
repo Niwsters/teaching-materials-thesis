@@ -17,27 +17,44 @@ The sample case describes a teaching material thouroughly, delving into details 
 
 %
 
-\section{Summary of usability test results}
+\section{Summary of usability tests}
 
+Seen in table \ref{table:testsummary} is a summary of all the usability tests. Each test has a codename containing one lower case letter, referring to the material that was tested, and an uppercase letter, referring to the test subject. For example, test "nB" tested material "Nätverk - insamling av data" on test subject B. 
+
+Every test subject also has a longer codename containing their age, profession and teaching experience. This is according to section \ref{subjectanonymity}, about what information is disclosed about the test subjects. The format of this codename is as follows:
+
+\begin{itemize}
+  \item A letter in alphabetical order chosen chronologically. For example, test subject "B" was done earlier than test "D" but later than test "A".
+  \item The age of the test subject, rounded to the nearest 25 years.
+  \item The letter "T" if they worked or had worked as a teacher, or "S" if they were studying teaching.
+  \item The total number of years they worked as a teacher, rounded up if less than 10, otherwise rounded to the nearest 5 years.
+\end{itemize}
+
+Thus, "A30T2" means test subject A is approximately 30 years old, has worked as a teacher, and has approximately two years of teaching experience.
+
+\bgroup
+\def\arraystretch{1.5}
 \begin{table}[H]
 \centering
-\caption{Summary of all usability tests of the study}
-\begin{tabular}{llll} \hline\hline
-  Codename & Date for test & Material that was tested & Test subject \\ \hline
-  A1 & 2018-04-24 & Mönster och talföljder - Pascals triangel ur slantsingling & A30T2 \\ \hline
-  B1 & 2018-04-30 & Nätverk - insamling av data & B25S \\ \hline
-  C1 & 2018-05-03 & Vad ska lotten kosta? & C37T3 \\ \hline
-  D1 & 2018-05-09 & Konsten att bestämma arean & D33T6 \\ \hline
-  E1 & 2018-05-09 & Område statistik & E38T4 \\ \hline
-  F1 & 2018-05-14 & Modellering & F50T30 \\ \hline
-  F2 & 2018-05-14 & Nätverk - insamling av data & F50T30 \\ \hline
-  G1 & 2018-05-24 & Mönster och talföljder - Pascals triangel ur slantsingling & G26T2 \\ \hline
-  G2 & 2018-05-24 & Den dolda och tvetydiga matematiken & G26T2 \\ \hline
-  H1 & 2018-05-30 & Den dolda och tvetydiga matematiken & H27S1 \\ \hline
-  I1 & 2018-06-12 & Den dolda och tvetydiga matematiken & I30T1
+  \begin{tabular}{p{3cm}p{2.5cm}p{5cm}p{2.5cm}} \hline\hline
+  Test codename & Date for test & Material that was tested & Test subject \\ \hline
+  mA & 2018-04-24 & Mönster och talföljder - Pascals triangel ur slantsingling & A30T2 \\ \hline
+  nB & 2018-04-30 & Nätverk - insamling av data & B25S \\ \hline
+  lC & 2018-05-03 & Vad ska lotten kosta? & C35T3 \\ \hline
+  aD & 2018-05-09 & Konsten att bestämma arean & D35T6 \\ \hline
+  sE & 2018-05-09 & Område statistik & E40T4 \\ \hline
+  oF & 2018-05-14 & Modellering & F50T30 \\ \hline
+  nF & 2018-05-14 & Nätverk - insamling av data & F50T30 \\ \hline
+  mG & 2018-05-24 & Mönster och talföljder - Pascals triangel ur slantsingling & G25T2 \\ \hline
+  dG & 2018-05-24 & Den dolda och tvetydiga matematiken & G25T2 \\ \hline
+  dH & 2018-05-30 & Den dolda och tvetydiga matematiken & H25S \\ \hline
+  dI & 2018-06-12 & Den dolda och tvetydiga matematiken & I30T1
   \\ \hline\hline
 \end{tabular}
+\caption{Summary of all usability tests of the study}
+\label{table:testsummary}
 \end{table}
+\egroup
 
 \section{Sample case 1. Kleinmaterial: Nätverk}
 Each teaching material tested has a different story to tell. Keep in mind that some of the content of the steps below are common to all teaching materials tested, while some are specific to the particular teaching material.
@@ -109,16 +126,16 @@ There were three relatively similar usability tests done on this material. All t
 The tests revealed that the material had some problems with structure and explaining what the exercises were supposed to teach. All subjects understood the main points of the material eventually, but it took them a while to dos o. In order of the tests done, these problems were found:
 
 \begin{itemize}
-  \item In test G2, the meaning of the different categories were unclear at first. The test subject first thought the exercises were examples of solutions rather than exercises. The subject also expressed that it took a lot of scrolling up and down to connect the first list with the lesson plan.
-  \item The test subject in test H1 expressed directly that they wanted a written purpose, connection to the curriculum, and time estimations. They expressed a need for more descriptions in general since the material was lacking an introduction or background, though they didn't want too much text either.
-  \item In test I1, the test subject scanned the text up and down more compared to the previous tests, rather than reading it from top to bottom. This time, it took even longer for the subject to understand the material. This revealed a possible problem with the material's adaption to scanning. For example, the material had headings called things such as "Part A" and "B:2", which didn't explain what the different parts were about. Furthermore, starting the material with a list might have meant that the subject did not know where to start reading, similarly to what happened in tests G2 and H1.
+  \item In test dG, see table \ref{table:testsummary}, the meaning of the different categories were unclear at first. The test subject first thought the exercises were examples of solutions rather than exercises. The subject also expressed that it took a lot of scrolling up and down to connect the first list with the lesson plan.
+  \item The test subject in test dH expressed directly that they wanted a written purpose, connection to the curriculum, and time estimations. They expressed a need for more descriptions in general since the material was lacking an introduction or background, though they didn't want too much text either.
+  \item In test dI, the test subject scanned the text up and down more compared to the previous tests, rather than reading it from top to bottom. This time, it took even longer for the subject to understand the material. This revealed a possible problem with the material's adaption to scanning. For example, the material had headings called things such as "Part A" and "B:2", which didn't explain what the different parts were about. Furthermore, starting the material with a list might have meant that the subject did not know where to start reading, similarly to what happened in tests dG and dH.
 \end{itemize}
 
 \subsection{Lessons learned}
 
-Since three test subjects chose to test this material and revision, it proved to be a good chance to study how different subjects react to the same material. According to Krug [KÄLLA], testing the same thing several times tends to reveal the same problems, aside from a couple of differences. This was found to be the case with this material; the unclear structure and lack of introduction was prominent in all tests, but the subjects read the material differently. While in G2 and H1 the subjects read the material more in-depth, in I1 they used more of a scanning approach. This likely affected their abilities to understand the material. The most important lesson gained from this, however, was that test subjects do read the same material in different ways, possibly due to different reading habits in general. This is further strengthened by another test, D1, in which the teacher tended to read everything top-to-bottom and in-depth directly, including the list of materials.
+Since three test subjects chose to test this material and revision, it proved to be a good chance to study how different subjects react to the same material. According to Krug [KÄLLA], testing the same thing several times tends to reveal the same problems, aside from a couple of differences. This was found to be the case with this material; the unclear structure and lack of introduction was prominent in all tests, but the subjects read the material differently. While in dG and dH the subjects read the material more in-depth, in dI they used more of a scanning approach. This likely affected their abilities to understand the material. The most important lesson gained from this, however, was that test subjects do read the same material in different ways, possibly due to different reading habits in general. This is further strengthened by another test, aD, in which the teacher tended to read everything top-to-bottom and in-depth directly, including the list of materials.
 
-Interestingly, despite complaining about the material's clarity, all test subjects found a way that they could hypothetically use the material in a lesson, and two of them expressed positive thoughts about the material. More specifically, H1 said that the material was "fun, with a lot of interactive parts" and "you can cut out [the exercises] and hold the lesson directly, which is good." In G2, the subject said that the material "feels very fun and doable", and "a fun way for the students to get a bit of a [habit]." This might point toward that a material which is difficult to understand still can be useful, if the rest of its content is good and relevant enough.
+Interestingly, despite complaining about the material's clarity, all test subjects found a way that they could hypothetically use the material in a lesson, and two of them expressed positive thoughts about the material. More specifically, dH said that the material was "fun, with a lot of interactive parts" and "you can cut out [the exercises] and hold the lesson directly, which is good." In dG, the subject said that the material "feels very fun and doable", and "a fun way for the students to get a bit of a [habit]." This might point toward that a material which is difficult to understand still can be useful, if the rest of its content is good and relevant enough.
 
 \section{The materials list}
 
@@ -157,7 +174,7 @@ Studying how the teachers chose one material from the materials list generated a
 
 One common finding was that the teachers want to know what type of material they are picking. For example, they want to know whether the material is a practical lab kind of lesson, or if it's a more common combination of lecture and exercises. Information about the material's connection to the curriculum, and what courses it can be used in, was also appreciated by the test subjects.
 
-Another finding was that teachers looked for materials that connected to what they were teaching at the moment. For example, in test E1, the teacher chose the statistics material to get some perspective on what they had taught recently. This is important to consider in the case of innovative or different materials, since teachers might ignore such materials in favor of those that connect more strongly to their teaching curriculum.
+Another finding was that teachers looked for materials that connected to what they were teaching at the moment. For example, in test sE, the teacher chose the statistics material to get some perspective on what they had taught recently. This is important to consider in the case of innovative or different materials, since teachers might ignore such materials in favor of those that connect more strongly to their teaching curriculum.
 
 Important to note about these findings is that the teachers were told to choose one material per test, without opening it. Thus, they didn't learn anything about the materials other than what was shown in the list of materials. This is different from reality, since if a teacher would visit a website containing several materials, they would be able to open each of them and look them over before picking one that they'd use in a lesson. However, the findings in this study might still be useful for getting some pointers in what teachers are looking for in a material, and what they want to know about it.
 
@@ -175,7 +192,7 @@ As described earlier [REFERENS? GÖR VI DETTA I METODKAPITLET?], part of the usa
 Because of the difference in how teachers read a material, where one might instantly read the material in-depth and the other might just scroll down while scanning it, having a material be intuitive at first glance is a good thing. Some materials took the teachers a while to understand, which could have been rectified through a more clear structure and by following typical patterns that the teachers are used to. One pattern that was asked for directly in two of the usability tests [REFERENSER: UBH,UBI] was to have an introductory text, which was lacking for the specific material that was tested. At the same time, in one of the tests [REFERENS: UBA] the teacher completely ignored the introduction to make sense of the material's content by itself. In either case, the material should ideally be clear to understand for both types of material reading behaviours.
 
 \subsection{Having student handouts as part of a material is appreciated}
-All materials didn't have parts that could be handed out to students, such as a list of exercises. However, many teachers seemed to appreciate such "handouts", or ask for them when they were missing. For example, one teacher wanted a handout for the student that explained a difficult word that they hadn't encountered before [REFERENS: UBD]. Another teacher said that they could use a list of exercises by itself without following the exact lesson plan [REFERENS: I1], which shows that exercises as a part of a material can improve the adaptability of the material. In contrast to this, one teacher expressed that materials can also work as a source of inspiration rather than something concrete and finished as a handout or a finished lesson plan. An important aspect of both of these materials, the "concrete handout" and the "source of inspiration", is the amount of work that these different types require for adaption into a real lesson: The handout can be printed and handed out directly, while the inspiration has to be reworked into a new material.
+All materials didn't have parts that could be handed out to students, such as a list of exercises. However, many teachers seemed to appreciate such "handouts", or ask for them when they were missing. For example, one teacher wanted a handout for the student that explained a difficult word that they hadn't encountered before [REFERENS: UBD]. Another teacher said that they could use a list of exercises by itself without following the exact lesson plan [REFERENS: dI], which shows that exercises as a part of a material can improve the adaptability of the material. In contrast to this, one teacher expressed that materials can also work as a source of inspiration rather than something concrete and finished as a handout or a finished lesson plan. An important aspect of both of these materials, the "concrete handout" and the "source of inspiration", is the amount of work that these different types require for adaption into a real lesson: The handout can be printed and handed out directly, while the inspiration has to be reworked into a new material.
 
 \subsection{Accounting for teachers' and students' previous knowledge}
 A common problem among many materials was the teacher's lack of previous knowledge about the subject that the material presented. The most common and concrete problem that appeared was when new vocabulary was used, such as RSA [REFERENS: UBC,UBH] and Dido's problem [REFERENS: UBH]. There was also an issue with one teacher not feeling competent enough to teach a subject that a material covers [REFERENS: UBE]. In contrast, another teacher expressed that a material could be explored together with the students when the teacher didn't know everything about it either [REFERENS: UBC]. Similarly, some materials seemed too difficult for certain teachers to use due to their students' lack of previous knowledge [REFERENS: UBD,UBE].
