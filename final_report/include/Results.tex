@@ -32,6 +32,7 @@ Thus, "A30T2" means test subject A is approximately 30 years old, has worked as 
 \def\arraystretch{1.5}
 \begin{table}[H]
 \centering
+\caption{Summary of all usability tests of the study}
   \begin{tabular}{p{3cm}p{2.5cm}p{5cm}p{2.5cm}} \hline\hline
   Test codename & Date for test & Material that was tested & Test subject \\ \hline
   mA & 2018-04-24 & Mönster och talföljder - Pascals triangel ur slantsingling & A30T2 \\ \hline
@@ -47,7 +48,6 @@ Thus, "A30T2" means test subject A is approximately 30 years old, has worked as 
   dI & 2018-06-12 & Den dolda och tvetydiga matematiken & I30T1
   \\ \hline\hline
 \end{tabular}
-\caption{Summary of all usability tests of the study}
 \label{table:testsummary}
 \end{table}
 \egroup
@@ -87,15 +87,32 @@ From the data collected, the following revisions were made:
 A decision was made to revise the material in the form of a presentation, with the aim to offer a ready-made presentation with enough explanation of the required theory to be a desirable product. To realize this, changes were made to the structure and to content.
 \subsubsection*{Structural changes}
 \begin{itemize}
-    \item The separation of information to the teacher and the main presentation was improved by implementing tabs similar to how many websites function. This also clarified the structure to the user, enabling the user to quickly get an overview of the structure.
-    \item The presentation's first slides contains useful information targeted to a curious teacher including how to read the important presentation notes (as these consists of teacher instructions and explanations).
+    \item The separation of information to the teacher and the main presentation was improved by implementing tabs similar to how many websites function (see figure~\ref{tabs}). This also clarified the structure to the user, enabling the user to quickly get an overview of the structure.
+    \item The presentation's first slides contain useful information targeted to a curious teacher including how to read the important presentation notes (as these consists of teacher instructions and explanations). Previously, the first slide contained information on who had created the presentation. As this information was deemed less important than what the presentation actually encompassed, this slide was moved to the end of the presentation instead.
 \end{itemize}
+
+\begin{figure}[H]
+\centering
+%\includegraphics[width=\linewidth]{figure/tabs1.png}
+\includegraphics[width=\linewidth]{figure/tabs2.png}
+\caption{Tabs were introduced to give an overview of the material.}
+\label{tabs}
+\end{figure}
+
 \subsubsection*{Content changes}
 \begin{itemize}
-    \item As mentioned previously, the presentation contains teacher instructions and explanations in the form of presentation notes. These can be printed or read in the presentation program, and also viewed while presenting. This was previously missing from the teacher material, or carelessly intertwined with content that seemed to be aimed to students.
+    \item As mentioned previously, the presentation contains teacher instructions and explanations in the form of presentation notes. These can be printed or read in the presentation program, and also viewed while presenting (see figure~\ref{notes}). This was previously missing from the teacher material, or carelessly intertwined with content that seemed to be aimed to students.
     \item Activities were altered to be either less vague or more closely tied to what the students are expected to learn.
     \item The content was modified to be easily understood and conveyed. An example of this was replacing the headings so that they describe their respective slide, instead of being named after the current 5E-phase.
 \end{itemize}
+
+\begin{figure}[H]
+\centering
+\frame{\includegraphics[width=\linewidth]{figure/notes.png}}
+\caption{Presentation notes were introduced, to separate content aimed at teachers from content aimed at students.}
+\label{notes}
+\end{figure}
+
 \subsection{What was learned from this case?}
 From this particular case, the following knowledge was obtained:
 \begin{itemize}
@@ -118,8 +135,8 @@ There were three relatively similar usability tests done on this material. The t
 
 \begin{itemize}
   \item In test dG, see table \ref{table:testsummary}, the meaning of the different categories were unclear at first. The test subject first thought the exercises were examples of solutions rather than exercises. The subject also expressed that it took a lot of scrolling up and down to connect the first list with the lesson plan.
-  \item The test subject in test dH expressed directly that they wanted a written purpose, connection to the curriculum, and time estimations. They expressed a need for more descriptions in general since the material was lacking an introduction or background, though they didn't want too much text either.
-  \item In test dI, the test subject scanned the text up and down more compared to the previous tests, rather than reading it from top to bottom. This time, it took even longer for the subject to understand the material. This revealed a possible problem with the material's adaption to scanning. For example, the material had headings called things such as "Part A" and "B:2", which didn't explain what the different parts were about. Furthermore, starting the material with a list might have meant that the subject did not know where to start reading, similarly to what happened in tests dG and dH.
+  \item The test subject in test dH expressed directly that they wanted a written purpose, connection to the curriculum, and time estimations. They expressed a need for more descriptions in general since the material was lacking an introduction or background, though they did not want too much text either.
+  \item In test dI, the test subject scanned the text up and down more compared to the previous tests, rather than reading it from top to bottom. This time, it took even longer for the subject to understand the material. This revealed a possible problem with the material's adaption to scanning. For example, the material had headings called things such as "Part A" and "B:2", which did not explain what the different parts were about. Furthermore, starting the material with a list might have meant that the subject did not know where to start reading, similarly to what happened in tests dG and dH.
 \end{itemize}
 
 \subsection{Lessons learned}
@@ -165,11 +182,11 @@ Revisions of the list of materials were made continuously during the project, bu
 
 Studying how the teachers chose one material from the materials list generated a few findings that might point toward how teachers choose materials in general. This is relevant for discussing obtainability later in the report.
 
-One common finding was that the teachers want to know what type of material they are picking. For example, they want to know whether the material is a practical lab kind of lesson, or if it's a more common combination of lecture and exercises. Information about the material's connection to the curriculum, and what courses it can be used in, was also appreciated by the test subjects.
+One common finding was that the teachers want to know what type of material they are picking. For example, they want to know whether the material is a practical lab kind of lesson, or if it is a more common combination of lecture and exercises. Information about the material's connection to the curriculum, and what courses it can be used in, was also appreciated by the test subjects.
 
 Another finding was that teachers looked for materials that connected to what they were teaching at the moment. For example, in test sE, the teacher chose the statistics material to get some perspective on what they had taught recently. This is important to consider in the case of innovative or different materials, since teachers might ignore such materials in favor of those that connect more strongly to their teaching curriculum.
 
-Important to note about these findings is that the teachers were told to choose one material per test, without opening it. Thus, they didn't learn anything about the materials other than what was shown in the list of materials. This is different from reality, since if a teacher would visit a website containing several materials, they would be able to open each of them and look them over before picking one that they'd use in a lesson. However, the findings in this study might still be useful for getting some pointers in what teachers are looking for in a material, and what they want to know about it.
+Important to note about these findings is that the teachers were told to choose one material per test, without opening it. Thus, they did not learn anything about the materials other than what was shown in the list of materials. This is different from reality, since if a teacher would visit a website containing several materials, they would be able to open each of them and look them over before picking one that they'd use in a lesson. However, the findings in this study might still be useful for getting some pointers in what teachers are looking for in a material, and what they want to know about it.
 
 \section{General perspective: Things that were learned from all the usability tests}
 The previous usability test cases in this chapter described how results were produced from a couple of specific tests. In a similar manner, more results were produced by going through the tests one by one and summarizing the findings, and comparing the tests next to each other. Below are some findings from this general analysis.
@@ -181,10 +198,10 @@ Part of the usability test consisted of asking the teachers what their typical l
 Because of the difference in how teachers read a material, where one might instantly read the material in-depth and the other might just scroll down while scanning it, having a material be intuitive at first glance is a good thing. Some materials took the teachers a while to understand, which could have been rectified through a more clear structure and by following typical patterns that the teachers are used to. One pattern that was asked for directly in two of the usability tests (dH and dI) was to have an introductory text, which was lacking for the specific material that was tested. At the same time, in one of the tests (mA), the teacher completely ignored the introduction at first to make sense of the material's content by itself. In either case, the material should ideally be clear to understand for both types of material reading behaviours.
 
 \subsection{Having student handouts as part of a material is appreciated} \label{handouts}
-All materials didn't have parts that could be handed out to students, such as a list of exercises. However, many teachers seemed to appreciate such "handouts", or ask for them when they were missing. For example, one teacher, in test aD, wanted a handout for the student that explained a difficult word that they hadn't encountered before. Another teacher said in test dI that they could use a list of exercises by itself without following the exact lesson plan. This shows that exercises as a part of a material can improve the adaptability of the material. In contrast to this, in test nB one teacher expressed that materials can also work as a source of inspiration rather than something concrete and finished as a handout or a finished lesson plan. An important aspect of both of these materials, the "concrete handout" and the "source of inspiration", is the amount of work that these different types require for adaption into a real lesson: The handout can be printed and handed out directly, while the inspiration has to be reworked into a new material.
+All materials did not have parts that could be handed out to students, such as a list of exercises. However, many teachers seemed to appreciate such "handouts", or ask for them when they were missing. For example, one teacher, in test aD, wanted a handout for the student that explained a difficult word that they hadn't encountered before. Another teacher said in test dI that they could use a list of exercises by itself without following the exact lesson plan. This shows that exercises as a part of a material can improve the adaptability of the material. In contrast to this, in test nB one teacher expressed that materials can also work as a source of inspiration rather than something concrete and finished as a handout or a finished lesson plan. An important aspect of both of these materials, the "concrete handout" and the "source of inspiration", is the amount of work that these different types require for adaption into a real lesson: The handout can be printed and handed out directly, while the inspiration has to be reworked into a new material.
 
 \subsection{Accounting for teachers' and students' previous knowledge} \label{prevknowledge}
-A common problem among many materials was the teacher's lack of previous knowledge about the subject that the material presented. The most common and concrete problem that appeared was when new vocabulary was used, such as RSA (tests lC and dH) and Dido's problem (dH). There was also an issue with one teacher not feeling competent enough to teach a subject that a material covers (sE). In contrast, another teacher expressed that a material could be explored together with the students when the teacher didn't know everything about it either (lC). Similarly, some materials seemed too difficult for certain teachers to use due to their students' lack of previous knowledge (aD and sE).
+A common problem among many materials was the teacher's lack of previous knowledge about the subject that the material presented. The most common and concrete problem that appeared was when new vocabulary was used, such as RSA (tests lC and dH) and Dido's problem (dH). There was also an issue with one teacher not feeling competent enough to teach a subject that a material covers (sE). In contrast, another teacher expressed that a material could be explored together with the students when the teacher did not know everything about it either (lC). Similarly, some materials seemed too difficult for certain teachers to use due to their students' lack of previous knowledge (aD and sE).
 
 \subsection{Finding common usability problems}
 In every test, at least one unclear explanation or structure, unanswered question, or other smaller, easily rectified usability problem was found. Thus, the usability tests proved effective in finding these problems. Examples of the problems found include:
@@ -193,7 +210,7 @@ In every test, at least one unclear explanation or structure, unanswered questio
 	\item A lack of description of the axes in a diagram.
 	\item Mixed use of comma (,) and dot (.) as decimal separator.
 	\item An undefined word that needed explanation (Galton board).
-	\item Unclear use of the 5E-structure when it wasn't used as the teacher expected it to be used.
+	\item Unclear use of the 5E-structure when it was not used as the teacher expected it to be used.
 	\item Unclear whether "degrees" was referencing temperature, geometric angles, or "levels."
 	\item Misunderstandings about what a list of exercises was, where the teacher described it simply as a "list" of unknown purpose.
 	\item Instructions that required more explanation. In this case, the instructions merely showed a couple of numbers without describing what the numbers were for; "0,0,0,50...", where it was explaining a point system for gambling with dice.
