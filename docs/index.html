@@ -181,7 +181,8 @@ th {
         courses: "Ma 1",
         amnesplan: "Statistik",
         description: "Diskuterar digitala spår och big data, inklusive etiska dilemman kring det.",
-        link: "http://kleindagarna.se/app/uploads/Kleinlektion-grupplektion-Natverk.pdf"
+        link: "/teaching-materials-thesis/materials/natverk/material_natverk_revision.pdf"
+        comments: "/teaching-materials-thesis/materials/natverk/material_natverk_revision_.pdf"
       } 
     ]
   })
@@ -215,6 +216,9 @@ th {
         </td>
         <td>
           <a ng-href="{{material.link}}">PDF</a>
+          <div ng-if="{{material.comments}}">
+            <a ng-href="{{material.comments}}">PDF: Lärarinstruktioner</a>
+          </div>
         </td>
       </tr>
     </table>
