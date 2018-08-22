@@ -1,10 +1,224 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-  </head>
 
-  <body>
-    <h1>Test</h1>
-  </body>
+<head>
+<meta charset="utf-8">
+
+<style>
+
+h1,h2 {
+  text-align: center;
+}
+
+h2 {
+  color: #666;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+table {
+  
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3bb;
+  color: white;
+}
+
+</style>
+
+<script src="/angular.min.js"></script>
+
+<script>
+  var app = angular.module('materiallista', [])
+
+  app.controller('materiallistaCtrl', function ($scope) {
+    $scope.materials = [
+      {
+        title: "Primtal och kryptering",
+        courses: "Ma 1b, 1c och 5",
+        amnesplan: "Taluppfattning, aritmetik och algebra: primtal, potenser med heltalsexponenter, strategier för användning av digitala verktyg. Innehåller övningsuppgifter.",
+        description: "Beskriver några metoder för att hitta primtal och hur de kan användas i kryptering.",
+        link: "http://kleindagarna.se/app/uploads/11kleinlektiontalt.pdf"
+      },
+      {
+        title: "Modellering",
+        courses: "Ma 1b, 1c och 2a",
+        amnesplan: "Matematisk modellering",
+        description: "Eleverna får skapa en modell som mäter hur mycket som går åt av ett stift på en penna per millimeter streck som ritas.",
+        link: "https://kleindagarna.se/app/uploads/11kleinlektionmode.pdf"
+      },
+      {
+        title: "Ramseytal",
+        courses: "Ma 5",
+        amnesplan: "Permutation och kombination, grafer och grafteoretiska problem.",
+        description: "Eleverna får lära sig om begreppen permutation och kombination genom något som kallas Ramseytal. Innehåller blad som kan delas ut till eleverna.",
+        link: "https://kleindagarna.se/app/uploads/11kleinlektionkomb.pdf"
+      },
+      {
+        title: "Geometri: Definition, sats och bevis",
+        courses: "Ma 1b och 1c",
+        amnesplan: "",
+        description: "Eleverna får ställa upp sig på ett sätt så att de bildar en mittpunktsnormal. Sedan får de formulera hypotes och bevis, och fördjupa sig i ämnet med fler geometriska problem.",
+        link: "http://kleindagarna.se/app/uploads/11kleinlektiongeom.pdf"
+      },
+      {
+        title: "Operationer: Associativitet och kommutativitet",
+        courses: "",
+        amnesplan: "",
+        description: "Undersöker ifall operationer är associativa och/eller kommutativa.",
+        link: "http://kleindagarna.se/app/uploads/12kleinlektionalge.pdf"
+      },
+      {
+        title: "Område statistik",
+        courses: "Ma 2b och 2c",
+        amnesplan: "Statistik, beräkning av lägesmått och spridningsmått mm., normalfördelning.",
+        description: "Går igenom statistiska begrepp genom att låta eleverna rita tsreck utan att prata med varandra, och efteråt analysera strecklängderna.",
+        link: "http://kleindagarna.se/app/uploads/12kleinlektionstat.pdf"
+      },
+      {
+        title: "Randvinkelsatsen",
+        courses: "Ma 2b och 2c",
+        amnesplan: "Geometri, randvinkelsatsen.",
+        description: "Går igenom randvinkelsatsen laborativt.",
+        link: "http://kleindagarna.se/app/uploads/12kleinlektiongeom.pdf"
+      },
+      {
+        title: "Den dolda och tvetydiga matematiken",
+        courses: "Ma 1 och 2",
+        amnesplan: "Aritmetik och algebra.",
+        description: "Går igenom vanliga missuppfattningar i algebran och aritmetiken.",
+        link: "/material/material_tvetydiga_matematiken_revision.pdf"
+      },
+      {
+        title: "Konsten att bestämma arean",
+        courses: "",
+        amnesplan: "Geometri: Area och polygoner, samt integraler.",
+        description: "Utforskar hur en mäter längd, area och volym. Går igenom både enkla metoder med polygoner och mer komplicerade med integraler.",
+        link: "http://kleindagarna.se/app/uploads/13kleinlektionAnalys.pdf"
+      },
+      {
+        title: "Benfords lag",
+        courses: "Ma 2",
+        amnesplan: "Statistik",
+        description: "Går igenom den statistiska lagen Benfords lag.",
+        link: "http://kleindagarna.se/app/uploads/Lektion-Benfords-lag.pdf"
+      },
+      {
+        title: "Isoperimetrisk optimering",
+        courses: "Ma 2",
+        amnesplan: "Geometri",
+        description: "Går igenom ett geometriskt problem som kallas Didos problem.",
+        link: "http://kleindagarna.se/app/uploads/Isoperimetrisk-optimering.pdf"
+      },
+      {
+        title: "Populationsmodeller",
+        courses: "",
+        amnesplan: "Förmågorna begrepp, modellering, resonemang och kommunikation.",
+        description: "Modellerar populationsmodeller för giraffer med hjälp av kalkylark på datorn.",
+        link: "http://kleindagarna.se/app/uploads/Kleinlektion-Grupp-2-lektion-1.pdf"
+      },
+      {
+        title: "Bara knyt... (eller oknyt)!",
+        courses: "",
+        amnesplan: "",
+        description: "Eleverna får leka knutleken, som de sedan får formalisera på papper och diskutera. Mycket diskussion och annan form av problemlösning än vanliga räkneövningar.",
+        link: "http://kleindagarna.se/app/uploads/BaraKnytAlfons.pdf"
+      },
+      {
+        title: "Inflexionslinje",
+        courses: "",
+        amnesplan: "",
+        description: "Relativt klassisk mattelektion med analys av funktionsgrafer, som sedan går över till intressanta generaliseringar med linjer genom inflexionspunkter.",
+        link: "http://kleindagarna.se/app/uploads/Inflexionslinje.pdf"
+      },
+      {
+        title: "Sfärisk geometri: Vinkelsumma",
+        courses: "Ma 1",
+        amnesplan: "Geometri: Vinkelsumma",
+        description: "Visar sfärisk geometri laborativt genom att mäta avstånd och vinklar på en jordglob.",
+        link: "http://kleindagarna.se/app/uploads/KleinlektionSfarisk.pdf"
+      },
+      {
+        title: "Vad ska lotten kosta?",
+        courses: "Ma 1",
+        amnesplan: "Statistik: Väntevärde",
+        description: "Går igenom väntevärde i lotteri.",
+        link: "/material/material_lotteri_revision.pdf"
+      },
+      {
+        title: "Mönster och talföljder - Pascals triangel ur slantsingling",
+        courses: "Ma 1, men utvecklingsbar mot Ma 5.",
+        amnesplan: "Sannolikhetslära och talteori.",
+        description: "Utforskar frågan, \"vad är sannolikheten för fifty-fifty om en singlar slant 100 gånger?\" Utvecklar det sedan med (virtuell) Galtonbräda och Pascals triangel.",
+        link: "/material/material_pascals_triangel_revision.pdf"
+      },
+      {
+        title: "Nätverk - insamling av data",
+        courses: "Ma 1",
+        amnesplan: "Statistik",
+        description: "Diskuterar digitala spår och big data, inklusive etiska dilemman kring det.",
+        link: "http://kleindagarna.se/app/uploads/Kleinlektion-grupplektion-Natverk.pdf"
+      } 
+    ]
+  })
+</script>
+</head>
+
+<body ng-app="materiallista">
+  <div id="container" ng-controller="materiallistaCtrl">
+    <h1>Material från Kleindagarna</h1>
+    <h2>Lektionsplaneringar med nya matteperspektiv</h2>
+    <table>
+      <tr>
+        <th>Titel</th>
+        <th>Beskrivning</th>
+        <th>Relevant(a) gymnasiekurs(er)</th>
+        <th>Koppling till ämnesplan</th>
+        <th>Länk</th>
+      </tr>
+      <tr ng-repeat="material in materials">
+        <td>
+          {{material.title}}
+        </td>
+        <td>
+          {{material.description}}
+        </td>
+        <td>
+          {{material.courses}}
+        </td>
+        <td>
+          {{material.amnesplan}}
+        </td>
+        <td>
+          <a ng-href="{{material.link}}">PDF</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+
 </html>
