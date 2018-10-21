@@ -1,0 +1,90 @@
+ÄNDRING EFTERFRÅGAD AV EXAMINATOR:
+• Rapporten skulle vinna mycket på en synkning mellan forskningsfrågorna och resultatdelen. Det rimligaste är att revidera frågorna så att ni har ett forskningsområde som handlar om. Vad sägs till
+o FF1: Vilka aspekter av UT, som det definierat av Krug, är tillämpbara för att värdera användbarhet av utbildningsmaterial för lärare?
+o FF2: Vilka utmaningar i Kleindagarnas utbildningsmaterial för lärare synliggörs med KRUT, dvs av vår anpassning av Krugs UT och ASD för utbildningsmaterial?
+
+ÄNDRING UTFÖRD:
+Ändrade frågeställningar 1 och 2 från
+
+1. How can usability testing be adopted to improve the usability of teaching materials?
+2. How can usability testing as a method be made accessible for teachers withlimited experience of usability design?
+
+till
+
+1. What results are produced when applying Krug’s usability testing method onteaching materials?
+2. What challenges might teachers run into when attempting to perform usability testing on teaching materials, and how might they deal with these challenges?
+
+-----
+
+ÄNDRING EFTERFRÅGAD AV EXAMINATOR:
+3. Är bakgrunden och kontexten tydlig och komplett? Är det klargjort vilka kunskaper och vilken forskning som är utgångspunkten för att kunna svara på forskningsfrågorna? Är det klargjort varför dessa tidigare resultat valts ut och andra förkastats?
+• Finns det någon annan som forskat kring UT för utbildningsmaterial? Det är viktigt att ta reda på och sedan bygga på vad andra redan undersökt och insett.
+9. Är det tydliggjort hur denna undersökning tillför nya perspektiv eller kunskap i relation till det som tagits upp som bakgrund, och är dessa resonemang väl försvarade?
+• När det gäller FF2 är det garanterat ingen som gjort just detta tidigare. När det gäller FF1 vore det bästa om ni först försöker göra det jag efterfrågar i punkten under 3 ovan och sedan kopplar era resultat till det.
+
+ÄNDRING UTFÖRD:
+Utökade diskussionskapitlet med en del om liknande studier. Se sektion 5.5 i
+den reviderade rapporten.
+
+-----
+
+ÄNDRING EFTERFRÅGAD AV EXAMINATOR:
+4. Är metoden välvald, inklusive val av data, för att kunna svara på forskningsfrågorna? Är metodens validitet redogjord och dess relevans försvarad?
+• Den huvudsakliga datan är den ni fick av respondenterna. Därför bör detta avsnitt noga beskriva hur ni samlade in denna. Tex hur respondenterna valdes ut, vilken information de fick, hur lång tid ni samverkade med dem, hus ni interagerade med dem hur ni dokumenterade det som hände och slutligen hur detta analyserades. Kanske något om etik och anonymisering.
+• KRUT bör kanske inte betraktas som er metod utan som den UT som ni använder för att utvärdera vilka användaraspekter ett UT-test kan upptäcka i utbildningsmaterial.
+
+ÄNDRING UTFÖRD:
+Metoden skrevs om med följande ändringar:
+* Förtydling i introtexten till metoden om att metoden både är ett resultat
+och en metod, och att hur metoden applicerades i studien beskrivs under
+sektionen "Implementation of the KRUT methodology in this thesis."
+* Sektion 3.2 i den reviderade rapporten, tidigare 3.1.1 i den 
+icke-reviderade rapporten, utökades med förtydlingar kring hur metoden
+applicerades i just den här studien. Denna förtydling inkluderar även hur
+resultaten samlades in och analyserades.
+
+-----
+
+ÄNDRING EFTERFRÅGAD AV EXAMINATOR:
+7. Är de utpekade resultaten underbyggda av data? Är detta synliggjort i rapporten så att läsaren själv kan avgöra om de utpekade resultaten är den rimliga beskrivningen av insamlad data.
+• Data är inte direkt synlig i resultatavsnittet. Det som visas är era slutsatser från dem. Finns det möjlighet att stärka resultaten genom att ge utdrag ur data som visar att det ni säger stöds av data. Tex i första punkten under 4.4.1 verkar dG säga något som visar att hen behöver leta. Finns det något citat som stöder detta?
+
+8. Är tolkningar av resultaten falsifierbara och väl försvarade? Är alternativa tolkningar diskuterade och avförd?
+• Detta är inte lätt utan att man får se lite data.
+
+ÄNDRING UTFÖRD:
+Resultatkapitlet innehåller nu citat som förtydligar hur tolkningar gjordes
+av vad testpersonerna sade. Att redovisa exakta svar från testpersonerna var
+svårt på grund av att testpersonerna skulle förbli anonyma och att inget
+transkriberades. Orsaken till att ingen transkribering skedde var att
+usability testingen var planerad att simulera en mer praktisk situation, där
+testpersonens svar tolkas medan frågor ställs. Förhoppningsvis räcker de
+citat som redovisas i resultatet nu.
+
+-----
+
+ÄNDRING EFTERFRÅGAD AV OPPONENT:
+Inledning
+Jag saknar också ett stycke med begränsningar, ofta kan det vara lika intressant att veta vad som inte gjordes för att veta vad jag får från att läsa rapporten.
+
+ÄNDRING UTFÖRD:
+Tolkade som att opponenten menade avgränsningar. Lade till en del kallad
+"delimitations" i den reviderade rapporten i sektion 1.3.
+
+-----
+
+ÄNDRING EFTERFRÅGAD AV OPPONENT:
+Teori
+Ibland upplever jag att jag inte riktigt vet varifrån teorierna kommer. Exempelvis utgår jag från att figurerna i 2.1 project types och informationen i 2.1.1 types of teaching material projects är från samma källa som innan (Obeng och sedan Butterick) men det hade kunnat förtydligas.
+
+ÄNDRING UTFÖRD:
+Fler källhänvisningar tillagda där källorna verkade otydliga.
+
+-----
+
+ÄNDRING EFTERFRÅGAD AV OPPONENT:
+Metod
+Det är spännande att ni utvecklar er egna metod som en del av er forskning, det jag saknar är lite information om andra som eventuellt har gjort liknade grejer. Alltså annan forskning som använt usability testing på andra områden för att kunna jämföra och eventuellt utvärdera validiteten på era egna resultat. Jag saknar också ett stycke om analysmetod.
+
+ÄNDRING UTFÖRD:
+Se punkt 3 och 9 från examinatorn om förfrågan om liknande forskning, och punkt 4 för analysmetod.
